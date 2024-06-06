@@ -4,8 +4,9 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
+
 window.onload = function() {
-  // write your code here
+  // Write your code here
   console.log("Hello Rigo from the console!");
   let pronoun = ["the", "our", "my", "your"];
   let adj = ["great", "big", "awesome", "small"];
@@ -22,7 +23,7 @@ window.onload = function() {
         for (let ext of extensions) {
           // Concatenar las palabras y agregar la extensión del dominio - Concatenate the words and add the extension of the domain.
           let domain = p + a + n + ext;
-          // Crear un nuevo elemento LI y agregar el dominio generado -
+          // Crear un nuevo elemento LI y agregar el dominio generado - Create a new IL element to add a new generate domain
           let listItem = document.createElement("li");
           listItem.textContent = domain;
           domainList.appendChild(listItem);
